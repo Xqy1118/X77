@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于我 - 夏麒义个人作品集</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body> data-page="about">
+  <header class="site-header">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="index.html">夏麒义 <span>Portfolio</span></a>
+      <button class="nav-toggle" type="button" aria-label="展开菜单" aria-expanded="false">☰</button>
+      <ul class="nav-menu">
+        <li><a href="index.html" data-nav="home">首页</a></li>
+        <li><a href="works.html" data-nav="works">作品/文章</a></li>
+        <li><a href="about.html" data-nav="about">关于我</a></li>
+        <li><a href="about.html#feedback">联系</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero"><div class="container"><span class="section-kicker">About Me</span><h1>关于我</h1><p>学号：2026116040198　姓名：夏麒义。这里记录我的学习方向、实践经历与联系方式。</p></div></section>
+    <section class="section"><div class="container about-grid">
+      <div class="about-photo"><img src="assets/images/about.jpg" alt="个人介绍配图"></div>
+      <div class="about-copy"><h2>个人简介</h2><p>我是一名注重实践的学生，喜欢把课堂知识应用到具体项目中。通过本网站，我希望把课程项目、经历、图片作品和文章整理在一起，形成清晰可查的个人成果展示。</p>
+      <div class="skill-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Git</span><span>GitHub</span><span>Nginx</span><span>响应式布局</span></div></div>
+    </div></section>
+    <section class="section section-soft"><div class="container">
+      <div class="section-heading"><span class="section-kicker">Timeline</span><h2>经历时间线</h2></div>
+      <div class="timeline">
+        <article><time>2024</time><div><h3>进入专业学习阶段</h3><p>开始系统学习开发工具、网页设计与工程实践相关课程。</p></div></article>
+        <article><time>2025</time><div><h3>参与课程项目实践</h3><p>完成多个小组任务，练习需求分析、页面实现与成果展示。</p></div></article>
+        <article><time>2026</time><div><h3>建设个人作品集网站</h3><p>完成多页面静态网站，并通过 GitHub 与 Linux 服务器完成部署演示。</p></div></article>
+      </div>
+    </div></section>
+    <section class="section" id="feedback"><div class="container contact-grid">
+      <div><span class="section-kicker">Contact</span><h2>联系与反馈</h2><p>如果你对网站内容或作品展示有建议，欢迎填写下面的表单。提交后页面会显示成功提示。</p>
+      <ul class="contact-list"><li>姓名：夏麒义</li><li>学号：2026116040198</li><li>邮箱：[邮箱占位符]</li><li>GitHub：[GitHub仓库地址]</li></ul></div>
+      <form class="feedback-form" id="feedbackForm">
+        <label>昵称<input name="nickname" type="text" required placeholder="请输入昵称"></label>
+        <label>邮箱<input name="email" type="email" required placeholder="请输入邮箱"></label>
+        <label>留言<textarea name="message" rows="5" required placeholder="请输入留言内容"></textarea></label>
+        <button class="btn btn-primary" type="submit">提交反馈</button>
+        <p class="form-message" id="formMessage" role="status"></p>
+      </form>
+    </div></section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 夏麒义个人作品集</p>
+      <p>学号：2026116040198　｜　GitHub：[GitHub仓库地址]</p>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="回到顶部">↑</button>
+</body>
+</html>
