@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>夏麒义个人作品集 - 首页</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body> data-page="home">
+  <header class="site-header">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="index.html">夏麒义 <span>Portfolio</span></a>
+      <button class="nav-toggle" type="button" aria-label="展开菜单" aria-expanded="false">☰</button>
+      <ul class="nav-menu">
+        <li><a href="index.html" data-nav="home">首页</a></li>
+        <li><a href="works.html" data-nav="works">作品/文章</a></li>
+        <li><a href="about.html" data-nav="about">关于我</a></li>
+        <li><a href="about.html#feedback">联系</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">2026 · 期末作品</p>
+          <h1>你好，我是<span class="accent">夏麒义</span></h1>
+          <p class="hero-lead">一个正在持续学习和实践的学生。这里展示我的课程项目、实践经历、图片作品与博客文章。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="works.html">浏览作品</a>
+            <a class="btn btn-ghost" href="about.html">了解我</a>
+          </div>
+          <div class="hero-meta"><span>学号：2026116040198</span><span>HTML / CSS / JavaScript</span><span>GitHub + Nginx</span></div>
+        </div>
+        <div class="hero-card">
+          <div class="avatar">XQY</div>
+          <h2>个人作品集</h2>
+          <p>用清晰的结构展示学习成果，用简洁的设计呈现个人特色。</p>
+          <ul><li>多页面静态网站</li><li>响应式布局</li><li>筛选、搜索与轮播交互</li></ul>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">精选展示</span><h2>图片轮播</h2><p>展示课程项目、活动经历与图片作品的代表画面。</p></div>
+        <div class="carousel" aria-label="图片轮播">
+          <div class="carousel-track">
+            <figure class="slide is-active"><img src="assets/images/banner-01.jpg" alt="课程项目展示图"><figcaption>课程项目：学习成果可视化</figcaption></figure>
+            <figure class="slide"><img src="assets/images/banner-02.jpg" alt="实践经历展示图"><figcaption>实践经历：团队协作与活动记录</figcaption></figure>
+            <figure class="slide"><img src="assets/images/banner-03.jpg" alt="图片作品展示图"><figcaption>图片作品：摄影与设计练习</figcaption></figure>
+          </div>
+          <button class="carousel-btn prev" type="button" aria-label="上一张">‹</button>
+          <button class="carousel-btn next" type="button" aria-label="下一张">›</button>
+          <div class="carousel-dots" aria-label="轮播指示器"></div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading row"><div><span class="section-kicker">Recommended</span><h2>推荐内容</h2></div><a class="text-link" href="works.html">查看全部 →</a></div>
+        <div class="card-grid three">
+          <article class="content-card"><img src="assets/images/work-01.jpg" alt="智能问答学习助手项目封面"><div class="card-body"><span class="tag">课程项目</span><h3>智能问答学习助手</h3><p>围绕课程学习场景设计的学习辅助工具，完成需求分析与页面展示。</p><a href="detail.html?id=project-ai-helper">查看详情</a></div></article>
+          <article class="content-card"><img src="assets/images/work-03.jpg" alt="社团实践经历封面"><div class="card-body"><span class="tag">经历社团</span><h3>校园活动与技术社团</h3><p>参与社团活动与技术实践，记录协作过程与阶段成果。</p><a href="detail.html?id=experience-club">查看详情</a></div></article>
+          <article class="content-card"><img src="assets/images/work-05.jpg" alt="摄影设计作品封面"><div class="card-body"><span class="tag">图片作品</span><h3>摄影与设计小作品</h3><p>用图片记录校园生活与设计练习，形成可浏览的图文作品集。</p><a href="detail.html?id=gallery-campus">查看详情</a></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="section"><div class="container quick-grid">
+      <a class="quick-card" href="works.html"><strong>作品与文章</strong><span>分类筛选 + 关键词搜索</span></a>
+      <a class="quick-card" href="detail.html?id=article-tools"><strong>博客文章</strong><span>开发工具学习记录</span></a>
+      <a class="quick-card" href="about.html"><strong>关于与联系</strong><span>技能、经历、反馈表单</span></a>
+    </div></section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 夏麒义个人作品集</p>
+      <p>学号：2026116040198　｜　GitHub：[GitHub仓库地址]</p>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="回到顶部">↑</button>
+</body>
+</html>
