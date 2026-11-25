@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>作品与文章 - 夏麒义个人作品集</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body> data-page="works">
+  <header class="site-header">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="index.html">夏麒义 <span>Portfolio</span></a>
+      <button class="nav-toggle" type="button" aria-label="展开菜单" aria-expanded="false">☰</button>
+      <ul class="nav-menu">
+        <li><a href="index.html" data-nav="home">首页</a></li>
+        <li><a href="works.html" data-nav="works">作品/文章</a></li>
+        <li><a href="about.html" data-nav="about">关于我</a></li>
+        <li><a href="about.html#feedback">联系</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero"><div class="container"><span class="section-kicker">Works & Articles</span><h1>作品与文章</h1><p>这里汇总课程项目、实践经历、图片作品和博客文章。可以按类别筛选，也可以输入关键词搜索。</p></div></section>
+    <section class="section"><div class="container">
+      <div class="toolbar">
+        <div class="filters" aria-label="分类筛选">
+          <button class="filter-btn is-active" type="button" data-filter="all">全部</button>
+          <button class="filter-btn" type="button" data-filter="project">课程项目</button>
+          <button class="filter-btn" type="button" data-filter="experience">经历社团</button>
+          <button class="filter-btn" type="button" data-filter="gallery">图片作品</button>
+          <button class="filter-btn" type="button" data-filter="article">博客文章</button>
+        </div>
+        <label class="search-box"><span>搜索</span><input id="searchInput" type="search" placeholder="输入标题、标签或关键词"></label>
+      </div>
+      <p class="result-count" id="resultCount">共 0 条内容</p>
+      <div class="card-grid three" id="worksGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>没有找到匹配内容，试试其他关键词。</div>
+    </div></section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 夏麒义个人作品集</p>
+      <p>学号：2026116040198　｜　GitHub：[GitHub仓库地址]</p>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="回到顶部">↑</button>
+</body>
+</html>
